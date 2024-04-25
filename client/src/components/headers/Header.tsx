@@ -1,5 +1,13 @@
+import MainHeader from "./components/MainHeader";
+import MobileHeader from "./components/MobileHeader";
+
 const Header = () => {
-  return <div>Header</div>;
+  return (
+    <header>
+      <MainHeader />
+      <MobileHeader />
+    </header>
+  );
 };
 
 export default Header;
