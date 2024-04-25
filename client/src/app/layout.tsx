@@ -25,7 +25,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={cn("w-full min-h-screen flex flex-col", poppins.className)}
+        className={cn(
+          "w-full min-h-screen flex flex-col bg-bgMain",
+          poppins.className
+        )}
       >
         {children}
       </body>
